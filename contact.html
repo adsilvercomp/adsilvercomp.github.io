@@ -5,12 +5,12 @@
 	<title>Aaron Silverstein's Portfolio</title>
 	<link rel= "stylesheet" href="assets/css/reset.css"/>
 	<link rel= "stylesheet" href="assets/css/style.css"/>
-	<script src="https://use.fontawesome.com/7a11000f1a.js"></script>
 </head>
 
 <body>
 	
 	<div class="container">
+			
 			<header id="top_header" class="clearfix">
 				<h1 id="name">Aaron Silverstein</h1>	
 			
@@ -26,21 +26,26 @@
 			</nav>
 			</header>
 
-			<section id="bio">
-				<article>
+			<section id="contact" >
 					<header id="bHeader">
 						<hgroup>
-							<h1>About Me</h1>
+							<h1>Contact</h1>
 						</hgroup>
 					</header>
-						<img src="images/profilePic.jpg" id="profilePic"/>
-						<p class="writing">
-						  A.D. Silverstein is a New York based composer, guitarist, and poet who is interested in the commonalities between poetic and music composition. He has studied composition at the Amsterdam Conservatory with Joël Bons, as well as privately with Reiko Füting, and Christopher Stone. He has studied jazz guitar with Joe Ravo, classical guitar with Joel Brown and Michael Newman, and has had master classes with David Russell, the Eden Stell Guitar Duo and the Newman Oltman Guitar Duo.
-						 	<br/>
-						 	<br/>
-						  Silverstein also studied Poetry at Skidmore College with Jay Rogoff, Peg Boyers, and April Bernard. In 2014 Silverstein was a finalist in the ASCAP Herb Alpert Young Jazz Composer Competition.
-						 </p>
-				</article>
+
+						<form id="cForm" action="" method="post">
+							<p class=cTitle>Name</p>
+							<input class="fBox" type="text" name="name" placeholder="John Smith"/>
+							
+							<p class=cTitle>Email</p>
+							<input class="fBox" type="email" name="email" placeholder="example@gmail.com"/>
+							
+							<p class=cTitle>Message</p>
+							<textarea id="textField" name="message" placeholder=""></textarea>
+								<br/>
+							
+							<a href="#"><div id=fbutton>Submit</div></a>
+						</form>
 			</section>
 
 			<aside id="links">
